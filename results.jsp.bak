@@ -1,0 +1,15 @@
+<%@ include file="aheader.jsp"%>
+
+
+<%@ page  import="java.sql.*" import="databaseconnection.*" %>
+
+<font size="" color="#cc0033">
+<table cellpadding="10">
+<tr><th>Soil Moisture<th>Temp<th>Humidity<th>PH<th>KNN<th>Naive Bayes
+
+<tr><tH><H4><%=session.getAttribute("soil")%><tH><H4><%=session.getAttribute("temp")%><tH><H4><%=session.getAttribute("hum")%><tH><H4><%=session.getAttribute("ph")%><tH><H4><%=session.getAttribute("knn")%>
+<tH><H4><%=session.getAttribute("nb")%>
+	
+</table>
+<br><br>
+<%@ include file="footer.jsp"%>
